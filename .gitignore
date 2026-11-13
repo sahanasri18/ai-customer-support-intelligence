@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+.env.*
+!.env.example
+venv/
+venv_broken_backup/
+*.egg-info/
+
+# Node
+node_modules/
+/dist/
+/frontend/dist/
+frontend/src/tailwind.generated.css
+logs/
+.backend.pid
+.frontend.pid
+/.pnp*
+.pnpm-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts
+build/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDEs
+.idea/
+.vscode/
+*.code-workspace
+
+# Data
+/data/raw/
+/data/processed/
+*.db
+*.sqlite
+*.sqlite3
+
+# Models
+/ml/models/
